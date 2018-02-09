@@ -1,0 +1,121 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Shoes_Opacity.png
+map_Kd suit_Shoes_Diffuse.png
+adobe_map_normal suit_Shoes_Normal.png
+map_Ks suit_Shoes_Specular.png
+adobe_map_shininess suit_Shoes_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Top_Opacity.png
+map_Kd suit_Top_Diffuse.png
+adobe_map_normal suit_Top_Normal.png
+map_Ks suit_Top_Specular.png
+adobe_map_shininess suit_Top_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Bottom_Opacity.png
+map_Kd suit_Bottom_Diffuse.png
+adobe_map_normal suit_Bottom_Normal.png
+map_Ks suit_Bottom_Specular.png
+adobe_map_shininess suit_Bottom_Gloss.png
+
+newmtl Hat
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Hat_Opacity.png
+map_Kd suit_Hat_Diffuse.png
+adobe_map_normal suit_Hat_Normal.png
+map_Ks suit_Hat_Specular.png
+adobe_map_shininess suit_Hat_Gloss.png
+
+newmtl Glove
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Glove_Opacity.png
+map_Kd suit_Glove_Diffuse.png
+adobe_map_normal suit_Glove_Normal.png
+map_Ks suit_Glove_Specular.png
+adobe_map_shininess suit_Glove_Gloss.png
+
+newmtl Hair
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Hair_Opacity.png
+map_Kd suit_Hair_Diffuse.png
+adobe_map_normal suit_Hair_Normal.png
+map_Ks suit_Hair_Specular.png
+adobe_map_shininess suit_Hair_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d suit_Body_Opacity.png
+map_Kd suit_Body_Diffuse.png
+adobe_map_normal suit_Body_Normal.png
+map_Ks suit_Body_Specular.png
+adobe_map_shininess suit_Body_Gloss.png
+
