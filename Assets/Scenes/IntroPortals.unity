@@ -176,7 +176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &944318182
 GameObject:
@@ -189,7 +189,6 @@ GameObject:
   - component: {fileID: 944318185}
   - component: {fileID: 944318184}
   - component: {fileID: 944318183}
-  - component: {fileID: 944318187}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -258,23 +257,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &944318187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944318182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59befdac075004a3f88ff9806187bff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  yOffset: 3
-  xOffset: 0
-  zOffset: 0
 --- !u!1 &1329155813
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +270,7 @@ GameObject:
   - component: {fileID: 1329155816}
   - component: {fileID: 1329155815}
   - component: {fileID: 1329155814}
+  - component: {fileID: 1329155818}
   m_Layer: 0
   m_Name: Portal 2
   m_TagString: Untagged
@@ -334,10 +319,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1329155813}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -359,8 +344,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -270, y: -90, z: 89.99999}
+--- !u!114 &1329155818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329155813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1100b0b9ec46a486e976eba9ea792b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1615452795
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +391,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1615452797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,7 +468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1812021573
 GameObject:
@@ -487,7 +483,7 @@ GameObject:
   - component: {fileID: 1812021574}
   - component: {fileID: 1812021578}
   m_Layer: 0
-  m_Name: portal1
+  m_Name: Portal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -559,7 +555,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 89.99999}
 --- !u!114 &1812021578
 MonoBehaviour:
@@ -569,6 +565,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1812021573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77bd660fb8cb94270b123026384387bb, type: 3}
+  m_Script: {fileID: 11500000, guid: ecf18dba4b0564ee9b07855855050586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
