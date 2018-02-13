@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IntroPortals.unity
+    guid: 2809b3f66579045b3b3b265c8d6075b6
+  - enabled: 1
+    path: Assets/Scenes/golconda.unity
+    guid: 48632e432e9534bafb5f70bd618a9e57
+  - enabled: 1
+    path: Assets/Scenes/ScrewAndStump.unity
+    guid: 83016e708c308462a884c9ed0ac5b437
